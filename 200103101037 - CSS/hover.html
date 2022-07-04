@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>hover effect</title>
+		<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul id="MainUL">
+			<li><b>Google</b>
+				<ul>
+					<li>Gmail
+						<ul>
+							<li>Sign Up</li>
+							<li>Sign In
+								<ul>
+									<li>Sign In As Admin</li>
+									<li>Sign In As Member</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>Youtube</li>
+					<li>GDrive</li>
+					<li>GMap</li>
+				</ul>
+			</li>
+			<li><b>Instagram</b></li>
+			<li><b>whatsapp</b>
+				<ul>
+					<li>chats</li>
+					<li>status</li>
+                    <li>calls</li>
+				</ul>
+			</li>
+			<li><b>MSN</b></li>
+			<li><b>Amazon</b>
+				<ul>
+					<li>AWS</li>
+					<li>Ecommerce</li>
+					<li>A-ML</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</body>
+</html>

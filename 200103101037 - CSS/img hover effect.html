@@ -1,0 +1,61 @@
+
+<html>
+	<head>
+        <title>img hover effect</title>
+		<style type="text/css">
+			.container-img {
+			  position:relative;
+			  width: 1300px;
+			}
+
+			.image {
+			  display: block;
+			  width: 1300px;
+			  height: 600px;
+			  transition:1s;
+			}
+
+			.overlay {
+			  position:absolute;
+			  top: 0;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
+			  height: 100%;
+			  opacity:0;
+			  transition: 1s;
+			  background-color:rgba(0,0,0,0.7);
+			}
+
+			.container-img:hover .overlay {
+			  opacity:1;
+			}
+			.container-img:hover .image {
+			  transform:rotate(360deg);
+			}
+			.text {
+			  color: rgb(0, 234, 255);
+			  font-size: 20px;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  -webkit-transform: translate(-50%, -50%);
+			  -ms-transform: translate(-50%, -50%);
+			  -o-transform: translate(-50%, -50%);
+			  -moz-transform: translate(-50%, -50%);
+			  transform: translate(-50%, -50%);
+			  text-align: center;
+			  
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Image Overlay Effect</h2>
+		<div class="container-img">
+			<img src="image/world.jpg" alt="Demo Image" class="image">
+			<div class="overlay">
+				<div class="text">Silver Oak University</div>
+		    </div>
+		</div>
+	</body>
+</html>
