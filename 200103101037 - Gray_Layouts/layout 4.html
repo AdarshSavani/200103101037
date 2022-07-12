@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>layout 4</title>
+        <style>
+            *{font-size: 25px; font-weight: bold;}
+            #R1{height: 75px; width: 100%; margin-bottom: 10px;}
+            #R1C1{width: 28%; padding-left: 2%;}
+            #R1C2{width: 70%; text-align: center;}
+            #R1 div{float: left; background-color: gray; height: 50px; padding-top: 25px;}
+            #R2{height:600px;width:100%;}
+			#R2R1,#R2R2,#R2R3,#R2R4{height:130px;margin-bottom:20px;width:100%;}
+			#R2R1 div,#R2R2 div,#R2R3 div,#R2R4 div{height:130px;width:23.5%;margin-right:2%;float:left;background-color:gray;}
+			#R2R1 div:last-child,#R2R2 div:last-child,#R2R3 div:last-child,#R2R4 div:last-child{margin-right:0!important;width:23.5%!important;}
+            #R3{height:230px; width: 100%; margin-bottom:10px;}
+            #R3C1{width:32%; margin-right:1.33%;}
+            #R3C2{width:32%; margin-right:1.33%;}
+            #R3C3{width:32%; margin-right:1.33%;}
+            #R3 div:last-child{margin-right:0!important;width:33.33%!important;}
+            #R3 div{float:left;background-color:gray;height:140px;text-align:center;padding-top:90px;}
+            #R4{background-color:gray;height:36px;padding-top:14px;width:100%;text-align:center;margin-bottom:10px;}
+        </style>
+    </head>
+    <body>
+        <div>
+            <div id="R1">
+                <div id="R1C1">
+                    Logo
+                </div>
+                <div id="R1C2">
+                    Navigation
+                </div>
+            </div>
+            <div id="R2">
+                <div id="R2R1">
+                    <div id="R2R1C1"></div>
+				    <div id="R2R1C2"></div>
+				    <div id="R2R1C3"></div>
+				    <div id="R2R1C4"></div>
+                </div>
+                <div id="R2R2">
+                    <div id="R2R2C1"></div>
+                    <div id="R2R2C2"></div>
+                    <div id="R2R2C3"></div>
+                    <div id="R2R2C4"></div>
+                </div>
+                <div id="R2R3">
+                    <div id="R2R3C1"></div>
+                    <div id="R2R3C2"></div>
+                    <div id="R2R3C3"></div>
+                    <div id="R2R3C4"></div>
+                </div>
+                <div id="R2R4">
+                    <div id="R2R4C1"></div>
+                    <div id="R2R4C2"></div>
+                    <div id="R2R4C3"></div>
+                    <div id="R2R4C4"></div>
+                </div>
+            </div>
+            <div id="R3">
+                <div id="R3C1">Box 1</div>
+                <div id="R3C2">Box 2</div>
+                <div id="R3C3">Box 3</div>
+            </div>
+            <div id="R4">
+                Footer
+            </div>
+        </div>
+    </body>
+</html>
