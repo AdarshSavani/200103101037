@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>slide up</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+        $("#flip").click(function(){
+        $("#panel").slideUp("slow");
+      });
+    });
+    </script>
+    <style> 
+    #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: #cbfc92;
+        border: solid 1px #43b8ee;
+    }
+
+    #panel {
+        text-align: center;
+        padding: 50px;
+        background-color: #ee7f18;
+        border: solid 1px #89eff8;
+    }
+    </style>
+</head>
+<body>
+    
+    <div id="flip">Click to Slide Up Panel</div>
+    <div id="panel">Silver Oak University!</div>
+
+</body>
+</html>
